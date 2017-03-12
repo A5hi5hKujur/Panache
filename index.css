@@ -1,0 +1,22 @@
+
+@import url(Stylesheets/Cover.css);
+@import url(Stylesheets/Navigation.css);
+@import url(Stylesheets/hamburger.css);
+@import url(Stylesheets/sidebar.css);
+@import url(Stylesheets/Content.css);
+@import url(Stylesheets/Footer.css);
+@font-face{
+    font-family: Raleway;
+    src: url(Stylesheets/raleway/Raleway-Light.ttf);
+}
+body
+{
+  font-family: Raleway;
+  padding:0px;
+  margin: 0px;
+}
+html
+{
+  padding:0px;
+  margin: 0px;
+}
