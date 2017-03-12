@@ -1,0 +1,83 @@
+@font-face{
+    font-family: Break;
+    src: url(Stylesheets/Break/Break Regular.ttf);
+}
+.navigation{
+  width: 100%;
+  height: 50px;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.05);
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.05);
+  z-index: 20;
+}
+.nav-divider
+{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.nav-unit
+{
+  margin-left:50px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.nav-unit:last-child
+{
+  padding-right: 10px;
+}
+.nav-container-2
+{
+  display: flex;
+}
+.nav-container-3{
+  padding-top: 12px;
+  position: absolute;
+  font-size: 35px;
+  font-weight: 500;
+  left: 42%;
+  letter-spacing: 2px;
+}
+.nav-container-3 a{
+  text-decoration: none;
+  color: #333;
+  font-family: Break;
+
+}
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 50px;
+	z-index: 1;
+}
+nav {
+  position: absolute;
+	width: 100%;
+	height: 50px;
+	background: #fff;
+}
+@media only screen and (max-width: 320px)
+{
+  .nav-unit
+  {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 19px;
+    font-weight: 700;
+  }
+  .nav-unit:last-child
+  {
+    padding-right:5px;
+  }
+  .nav-container-3
+  {
+    font-size: 16px;
+    letter-spacing: 0px;
+    left: 37%;
+    padding-top: 20px;
+    font-weight: 700;
+  }
+}

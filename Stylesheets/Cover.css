@@ -1,0 +1,65 @@
+@font-face{
+    font-family: Break;
+    src: url(Break/Break-Regular.ttf);
+}
+.Cover
+{
+  width: 100%;
+  height: 750px;
+  background-image: url(../Media/Cover.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 4;
+}
+.logo
+{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 50;
+  font-weight: 300;
+  color: white;
+  font-family: Break;
+}
+.sale-1, .sale-2
+{
+  position: absolute;
+
+}
+.sale-1{
+  font-size: 80px;
+  font-weight: 700;
+  color: white;
+  left: 23%;
+  top: 28%;
+}
+.sale-2{
+  font-size: 170px;
+  font-weight: 900;
+  color: #E95B32;
+  left: 35%;
+  top: 27%;
+}
+@media only screen and (max-width: 320px) {
+  .Cover
+  {
+    height: 320px;
+    background-position: left;
+  }
+  .logo
+  {
+    font-size: 40px;
+    padding-top: 10px;
+  }
+  .sale-1
+  {
+    font-size: 30px;
+    top: 15%;
+    left: 10%;
+  }
+  .sale-2
+  {
+    font-size: 60px;
+    top: 17%;
+    left:35%;
+  }
+}
